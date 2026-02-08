@@ -3,7 +3,7 @@ const stages = [
     { answer: "you", imgs: ["images/you1.webp", "images/you2.webp", "images/you3.jpg", "images/you4.webp"] },
     { answer: "bee", imgs: ["images/bee1.jpg", "images/bee2.webp", "images/bee3.jpg", "images/bee4.jpg"] },
     { answer: "may", imgs: ["images/my1.webp", "images/my2.jpg", "images/my3.jpg", "images/my4.webp"] },
-    { answer: "valentines", imgs: ["images/valentines1.webp", "images/valentines2.webp", "images/valentines3.webp", "images/valentines4.jpeg"] }
+    { answer: "valentine", imgs: ["images/valentines1.webp", "images/valentines2.webp", "images/valentines3.webp", "images/valentines4.jpeg"] }
 ];
 
 let currentStage = 0;
