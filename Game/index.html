@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Pics 1 Word: Valentine Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+
+    <div class="interior">
+        <div class="interior2">
+            
+            <div id="start-screen">
+                <h1 class="StartingText">4 PICS<br>1 WORD</h1>
+                <button onclick="startGame()" class="game-btn">START GAME</button>
+            </div>
+
+            <div id="game-screen" class="hidden">
+                <div class="image-grid">
+                    <img id="img1" src="" alt="?">
+                    <img id="img2" src="" alt="?">
+                    <img id="img3" src="" alt="?">
+                    <img id="img4" src="" alt="?">
+                </div>
+                <div id="box-container" class="letter-boxes"></div>
+                <br>
+                <button onclick="checkAnswer()" class="game-btn">SUBMIT</button>
+                <p id="feedback"></p>
+            </div>
+
+            <div id="final-screen" class="hidden">
+                <h1 class="StartingText">NOW COMBINE<br>EVERYTHING!</h1>
+                <p id="combined-result"></p>
+                
+                <div class="choice-buttons" id="choice-area">
+                    <button id="yes-btn" class="game-btn" onclick="sayYes()">YES</button>
+                    <button id="no-btn" class="game-btn" onclick="sayNo()">NO</button>
+                </div>
+
+                <h2 class="heart-icon" id="final-icon"> ˚₊‧꒰ა❤︎໒꒱ ‧₊</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
