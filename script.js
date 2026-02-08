@@ -75,7 +75,7 @@ function showFinal() {
     document.getElementById('game-screen').classList.add('hidden');
     document.getElementById('final-screen').classList.remove('hidden');
     const sentence = solvedWords.map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
-    document.getElementById('combined-result').innerText = sentence + "?";
+    document.getElementById('combined-result').innerText = sentence.trim() + "?";
 }
 
 function sayNo() {
